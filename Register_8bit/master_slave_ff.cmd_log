@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/VLSI_LAB_EXMPLES/Register_8bit/master_slave_ff.xst" -ofn "/home/ise/VLSI_LAB_EXMPLES/Register_8bit/master_slave_ff.syr" 

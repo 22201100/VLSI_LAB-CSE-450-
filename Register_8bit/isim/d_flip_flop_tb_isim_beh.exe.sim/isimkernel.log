@@ -1,0 +1,10 @@
+Command line:
+   d_flip_flop_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  2
+     -socket  51996
+
+Mon Sep 21 16:18:06 2026
+
+
+ Elaboration Time: 0.1 sec

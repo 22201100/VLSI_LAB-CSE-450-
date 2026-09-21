@@ -1,0 +1,2 @@
+vhdl work "bit_8_Register.vhd"
+vhdl work "bit_8_Register_Test1.vhd"

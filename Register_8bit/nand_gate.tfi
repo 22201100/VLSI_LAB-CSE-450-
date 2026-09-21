@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+nand_gate instance_name (
+    .A(A), 
+    .B(B), 
+    .Y(Y)
+    );
+
+

@@ -1,0 +1,4 @@
+vhdl work "Nand_gate.vhd"
+vhdl work "SR_LATCH.vhd"
+vhdl work "D_LATCH.vhd"
+vhdl work "D_Flipflop.vhd"

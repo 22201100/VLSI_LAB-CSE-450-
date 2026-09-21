@@ -1,0 +1,5 @@
+work	"D_Flipflop.vhd"
+work	"D_LATCH.vhd"
+work	"Nand_gate.vhd"
+work	"SR_LATCH.vhd"
+work	"bit_1_Register.vhd"

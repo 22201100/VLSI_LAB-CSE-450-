@@ -1,0 +1,10 @@
+Command line:
+   sr_latch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  34797
+
+Mon Sep 21 15:50:57 2026
+
+
+ Elaboration Time: 0.13 sec

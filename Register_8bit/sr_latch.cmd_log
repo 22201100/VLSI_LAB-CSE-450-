@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "/home/ise/VLSI_LAB_EXMPLES/Register_8bit/sr_latch.xst" -ofn "/home/ise/VLSI_LAB_EXMPLES/Register_8bit/sr_latch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 sr_latch.ngc sr_latch.ngd  
+xst -intstyle ise -ifn "/home/ise/VLSI_LAB_EXMPLES/Register_8bit/sr_latch.xst" -ofn "/home/ise/VLSI_LAB_EXMPLES/Register_8bit/sr_latch.syr" 
