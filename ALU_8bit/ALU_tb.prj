@@ -1,0 +1,7 @@
+verilog work "full_adder.v"
+verilog work "register_8bit.v"
+verilog work "mux_8to1.v"
+verilog work "logic_unit.v"
+verilog work "adder_8bit.v"
+verilog work "ALU.v"
+verilog work "ALU_tb.v"

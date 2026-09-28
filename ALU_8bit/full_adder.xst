@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/VLSI_LAB_EXMPLES/ALU_8bit/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/VLSI_LAB_EXMPLES/ALU_8bit/xst"
+elaborate
+-ifn full_adder.prj
+-ifmt mixed

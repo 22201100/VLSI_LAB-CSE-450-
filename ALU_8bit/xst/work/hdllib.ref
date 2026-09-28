@@ -1,0 +1,11 @@
+MO not_gate NULL not_gate.v vlg1D/not__gate.bin 1790589416
+MO ALU_tb NULL ALU_tb.v vlg6F/_a_l_u__tb.bin 1790606594
+MO mux_8to1 NULL mux_8to1.v vlg15/mux__8to1.bin 1790608357
+MO adder_8bit NULL adder_8bit.v vlg3E/adder__8bit.bin 1790608357
+MO full_adder NULL full_adder.v vlg5A/full__adder.bin 1790608357
+MO logic_unit NULL logic_unit.v vlg45/logic__unit.bin 1790608357
+MO or_gate NULL or_gate.v vlg5D/or__gate.bin 1790589579
+MO xor_gate NULL xor_gate.v vlg75/xor__gate.bin 1790589477
+MO ALU NULL ALU.v vlg2A/_a_l_u.bin 1790608357
+MO register_8bit NULL register_8bit.v vlg57/register__8bit.bin 1790608357
+MO and_gate NULL and_gate.v vlg7B/and__gate.bin 1790589544

@@ -1,0 +1,111 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml ALU.twx ALU.ncd -o ALU.twr ALU.pcf
+
+Design file:              ALU.ncd
+Physical constraint file: ALU.pcf
+Device,package,speed:     xc5vlx20t,ff323,-2 (PRODUCTION 1.73 2013-10-13, STEPPING level 0)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+A<0>        |    1.835(R)|    1.364(R)|clk_BUFGP         |   0.000|
+A<1>        |    1.861(R)|    1.186(R)|clk_BUFGP         |   0.000|
+A<2>        |    1.640(R)|    1.232(R)|clk_BUFGP         |   0.000|
+A<3>        |    1.482(R)|    1.083(R)|clk_BUFGP         |   0.000|
+A<4>        |    1.266(R)|    1.454(R)|clk_BUFGP         |   0.000|
+A<5>        |    1.388(R)|    1.716(R)|clk_BUFGP         |   0.000|
+A<6>        |    0.790(R)|    1.539(R)|clk_BUFGP         |   0.000|
+A<7>        |    0.847(R)|    1.017(R)|clk_BUFGP         |   0.000|
+B<0>        |    1.979(R)|    1.226(R)|clk_BUFGP         |   0.000|
+B<1>        |    1.693(R)|    1.060(R)|clk_BUFGP         |   0.000|
+B<2>        |    1.685(R)|    1.068(R)|clk_BUFGP         |   0.000|
+B<3>        |    1.545(R)|    1.171(R)|clk_BUFGP         |   0.000|
+B<4>        |    1.253(R)|    0.958(R)|clk_BUFGP         |   0.000|
+B<5>        |    1.301(R)|    1.539(R)|clk_BUFGP         |   0.000|
+B<6>        |    0.829(R)|    1.193(R)|clk_BUFGP         |   0.000|
+B<7>        |    0.954(R)|    1.108(R)|clk_BUFGP         |   0.000|
+OP<0>       |    3.167(R)|    1.312(R)|clk_BUFGP         |   0.000|
+OP<1>       |    3.498(R)|    1.196(R)|clk_BUFGP         |   0.000|
+OP<2>       |    3.291(R)|    1.357(R)|clk_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+RESULT<0>   |    6.649(R)|clk_BUFGP         |   0.000|
+RESULT<1>   |    6.656(R)|clk_BUFGP         |   0.000|
+RESULT<2>   |    6.623(R)|clk_BUFGP         |   0.000|
+RESULT<3>   |    6.656(R)|clk_BUFGP         |   0.000|
+RESULT<4>   |    6.652(R)|clk_BUFGP         |   0.000|
+RESULT<5>   |    6.644(R)|clk_BUFGP         |   0.000|
+RESULT<6>   |    6.629(R)|clk_BUFGP         |   0.000|
+RESULT<7>   |    6.633(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |CARRY          |    6.864|
+A<1>           |CARRY          |    6.890|
+A<2>           |CARRY          |    6.669|
+A<3>           |CARRY          |    6.511|
+A<4>           |CARRY          |    6.295|
+A<5>           |CARRY          |    6.417|
+A<6>           |CARRY          |    5.419|
+A<7>           |CARRY          |    5.353|
+B<0>           |CARRY          |    7.008|
+B<1>           |CARRY          |    6.722|
+B<2>           |CARRY          |    6.714|
+B<3>           |CARRY          |    6.574|
+B<4>           |CARRY          |    6.282|
+B<5>           |CARRY          |    6.330|
+B<6>           |CARRY          |    5.620|
+B<7>           |CARRY          |    5.456|
+OP<0>          |CARRY          |    8.196|
+OP<1>          |CARRY          |    8.527|
+OP<2>          |CARRY          |    8.320|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Sep 28 15:13:58 2026 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 479 MB
+
+
+
