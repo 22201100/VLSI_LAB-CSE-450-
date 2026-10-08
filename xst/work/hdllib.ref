@@ -1,0 +1,13 @@
+EN mux_4to1 NULL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/mux_4to1.vhd sub00/vhpl08 1791193801
+EN adder_4bit NULL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/adder_4bit.vhd sub00/vhpl06 1791193799
+EN alu_4bit_tb NULL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/alu_4bit_tb.vhd sub00/vhpl12 1791193805
+EN alu_4bit NULL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/alu_4bit.vhd sub00/vhpl10 1791193803
+EN or_unit NULL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/Or_unit.vhd sub00/vhpl04 1791194056
+AR mux_4to1 behavioral /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/mux_4to1.vhd sub00/vhpl09 1791193802
+AR and_unit behavioral /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/and_unit.vhd sub00/vhpl01 1791194147
+AR or_unit behavioral /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/Or_unit.vhd sub00/vhpl05 1791194057
+EN and_unit NULL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/and_unit.vhd sub00/vhpl00 1791194146
+AR adder_4bit structural /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/adder_4bit.vhd sub00/vhpl07 1791193800
+EN full_adder NULL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/full_adder.vhd sub00/vhpl02 1791194237
+AR alu_4bit structural /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/alu_4bit.vhd sub00/vhpl11 1791193804
+AR full_adder behavioral /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/full_adder.vhd sub00/vhpl03 1791194238

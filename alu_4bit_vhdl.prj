@@ -1,0 +1,6 @@
+vhdl work "/home/ise/VLSI_LAB_EXMPLES/Alu_4bit/full_adder.vhd"
+vhdl work "/home/ise/VLSI_LAB_EXMPLES/Alu_4bit/Or_unit.vhd"
+vhdl work "/home/ise/VLSI_LAB_EXMPLES/Alu_4bit/mux_4to1.vhd"
+vhdl work "/home/ise/VLSI_LAB_EXMPLES/Alu_4bit/and_unit.vhd"
+vhdl work "/home/ise/VLSI_LAB_EXMPLES/Alu_4bit/adder_4bit.vhd"
+vhdl work "/home/ise/VLSI_LAB_EXMPLES/Alu_4bit/alu_4bit.vhd"

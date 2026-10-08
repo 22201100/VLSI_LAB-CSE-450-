@@ -1,0 +1,41 @@
+V3 27
+FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/adder_4bit.vhd 2026/10/05.09:32:12 P.20131013
+EN work/adder_4bit 1791193799 \
+      FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/adder_4bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/adder_4bit/Structural 1791193800 \
+      FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/adder_4bit.vhd EN work/adder_4bit 1791193799 \
+      CP work/full_adder
+FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/alu_4bit.vhd 2026/10/05.09:32:12 P.20131013
+EN work/alu_4bit 1791193803 FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/alu_4bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/alu_4bit/Structural 1791193804 \
+      FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/alu_4bit.vhd EN work/alu_4bit 1791193803 \
+      CP work/and_unit CP work/or_unit CP work/adder_4bit CP work/mux_4to1
+FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/alu_4bit_tb.vhd 2026/10/05.09:32:13 P.20131013
+EN work/alu_4bit_tb 0 FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/alu_4bit_tb.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/alu_4bit_tb/Behavioral 0 \
+      FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/alu_4bit_tb.vhd EN work/alu_4bit_tb 0 \
+      CP work/alu_4bit
+FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/and_unit.vhd 2026/10/05.09:45:39 P.20131013
+EN work/and_unit 1791194146 FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/and_unit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/and_unit/Behavioral 1791194147 \
+      FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/and_unit.vhd EN work/and_unit 1791194146
+FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/full_adder.vhd 2026/10/05.09:37:32 P.20131013
+EN work/full_adder 1791194237 \
+      FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/full_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/Behavioral 1791194238 \
+      FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/full_adder.vhd EN work/full_adder 1791194237
+FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/mux_4to1.vhd 2026/10/05.09:32:12 P.20131013
+EN work/mux_4to1 1791193801 FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/mux_4to1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux_4to1/Behavioral 1791193802 \
+      FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/mux_4to1.vhd EN work/mux_4to1 1791193801
+FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/Or_unit.vhd 2026/10/05.09:37:31 P.20131013
+EN work/Or_unit 1791194056 FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/Or_unit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/or_unit/Behavioral 1791194057 \
+      FL /home/ise/VLSI_LAB_EXMPLES/Alu_4bit/Or_unit.vhd EN work/Or_unit 1791194056

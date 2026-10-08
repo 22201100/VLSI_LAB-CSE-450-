@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/VLSI_LAB_EXMPLES/Alu_4bit/alu_4bit_tb_isim_beh.exe" -prj "/home/ise/VLSI_LAB_EXMPLES/Alu_4bit/alu_4bit_tb_beh.prj" "work.alu_4bit_tb" 

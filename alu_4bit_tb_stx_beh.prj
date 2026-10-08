@@ -1,0 +1,7 @@
+vhdl isim_temp "full_adder.vhd"
+vhdl isim_temp "Or_unit.vhd"
+vhdl isim_temp "mux_4to1.vhd"
+vhdl isim_temp "and_unit.vhd"
+vhdl isim_temp "adder_4bit.vhd"
+vhdl isim_temp "alu_4bit.vhd"
+vhdl isim_temp "alu_4bit_tb.vhd"
