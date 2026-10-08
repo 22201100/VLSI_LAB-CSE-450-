@@ -1,0 +1,8 @@
+[Inputs]
+CLK
+RESET
+LOAD
+=D[7:0]=
+[Outputs]
+=Q[7:0]=
+[BiDir]

@@ -1,0 +1,28 @@
+Command line:
+   register_8bit_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  4
+     -socket  44977
+
+Mon Sep 21 16:59:57 2026
+
+
+ Elaboration Time: 0.11 sec
+
+ Current Memory Usage: 198.615 Meg
+
+ Total Signals          : 11
+ Total Nets             : 27
+ Total Signal Drivers   : 6
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 4
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 387
+
+ Total Simulation Time: 0.13 sec
+
+ Current Memory Usage: 276.214 Meg
+
+Mon Sep 21 17:01:04 2026
+

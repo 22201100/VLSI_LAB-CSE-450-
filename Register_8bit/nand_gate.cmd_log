@@ -1,0 +1,3 @@
+vhdtdtfi -prj Register_8bit -o /home/ise/VLSI_LAB_EXMPLES/Register_8bit/nand_gate.tfi -module nand_gate -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work Nand_gate.vhd 
+vhdtdtfi -lib work Nand_gate.vhd -prj Register_8bit -o nand_gate.spl -module nand_gate -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 nand_gate.spl /home/ise/VLSI_LAB_EXMPLES/Register_8bit/nand_gate.sym 

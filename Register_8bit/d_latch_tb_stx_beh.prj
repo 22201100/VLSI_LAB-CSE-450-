@@ -1,0 +1,4 @@
+vhdl isim_temp "Nand_gate.vhd"
+vhdl isim_temp "SR_LATCH.vhd"
+vhdl isim_temp "D_LATCH.vhd"
+vhdl isim_temp "D_Latch_Test1.vhd"

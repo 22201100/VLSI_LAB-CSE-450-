@@ -1,0 +1,6 @@
+vhdl isim_temp "Nand_gate.vhd"
+vhdl isim_temp "SR_LATCH.vhd"
+vhdl isim_temp "D_LATCH.vhd"
+vhdl isim_temp "D_Flipflop.vhd"
+vhdl isim_temp "bit_1_Register.vhd"
+vhdl isim_temp "bit_1_Register_test1.vhd"

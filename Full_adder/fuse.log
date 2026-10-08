@@ -1,0 +1,23 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/Full_adder/test1_isim_beh.exe -prj /home/ise/Full_adder/test1_beh.prj work.test1 work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/ise/Full_adder/Full_adder1.v" into library work
+WARNING:HDLCompiler:751 - "/home/ise/Full_adder/Full_adder1.v" Line 10: Redeclaration of ansi port c is not allowed
+Analyzing Verilog file "/home/ise/Full_adder/test1.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 94936 KB
+Fuse CPU Usage: 1020 ms
+Compiling module HA
+Compiling module Full_adder1
+Compiling module test1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 4 Verilog Units
+Built simulation executable /home/ise/Full_adder/test1_isim_beh.exe
+Fuse Memory Usage: 98028 KB
+Fuse CPU Usage: 1030 ms
+GCC CPU Usage: 180 ms

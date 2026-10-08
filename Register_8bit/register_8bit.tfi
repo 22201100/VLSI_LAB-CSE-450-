@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+register_8bit instance_name (
+    .CLK(CLK), 
+    .RESET(RESET), 
+    .LOAD(LOAD), 
+    .D(D), 
+    .Q(Q)
+    );
+
+
