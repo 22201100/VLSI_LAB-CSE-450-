@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/xst"
+elaborate
+-ifn CPU_8bit.prj
+-ifmt mixed

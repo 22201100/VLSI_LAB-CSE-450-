@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/CPU_8bit.xst" -ofn "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/CPU_8bit.syr" 
+xst -intstyle ise -ifn "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/CPU_8bit.xst" -ofn "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/CPU_8bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx20t-ff323-2 CPU_8bit.ngc CPU_8bit.ngd  
+map -intstyle ise -p xc5vlx20t-ff323-2 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o CPU_8bit_map.ncd CPU_8bit.ngd CPU_8bit.pcf 
+par -w -intstyle ise -ol high -mt off CPU_8bit_map.ncd CPU_8bit.ncd CPU_8bit.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CPU_8bit.twx CPU_8bit.ncd -o CPU_8bit.twr CPU_8bit.pcf 
+xst -intstyle ise -ifn "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/CPU_8bit.xst" -ofn "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/CPU_8bit.syr" 
+xst -intstyle ise -ifn "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/CPU_8bit.xst" -ofn "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/CPU_8bit.syr" 
+xst -intstyle ise -ifn "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/CPU_8bit.xst" -ofn "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/CPU_8bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx20t-ff323-2 CPU_8bit.ngc CPU_8bit.ngd  
+map -intstyle ise -p xc5vlx20t-ff323-2 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o CPU_8bit_map.ncd CPU_8bit.ngd CPU_8bit.pcf 
+par -w -intstyle ise -ol high -mt off CPU_8bit_map.ncd CPU_8bit.ncd CPU_8bit.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CPU_8bit.twx CPU_8bit.ncd -o CPU_8bit.twr CPU_8bit.pcf 

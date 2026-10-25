@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Program_ROM.xst" -ofn "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Program_ROM.syr" 
+xst -intstyle ise -ifn "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Program_ROM.xst" -ofn "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Program_ROM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx20t-ff323-2 Program_ROM.ngc Program_ROM.ngd  
+map -intstyle ise -p xc5vlx20t-ff323-2 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o Program_ROM_map.ncd Program_ROM.ngd Program_ROM.pcf 
+par -w -intstyle ise -ol high -mt off Program_ROM_map.ncd Program_ROM.ncd Program_ROM.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Program_ROM.twx Program_ROM.ncd -o Program_ROM.twr Program_ROM.pcf 

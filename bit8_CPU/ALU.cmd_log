@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/ALU.xst" -ofn "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/ALU.syr" 

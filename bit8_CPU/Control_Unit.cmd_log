@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Control_Unit.xst" -ofn "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Control_Unit.syr" 

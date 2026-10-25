@@ -1,0 +1,100 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml Program_ROM.twx Program_ROM.ncd -o Program_ROM.twr
+Program_ROM.pcf
+
+Design file:              Program_ROM.ncd
+Physical constraint file: Program_ROM.pcf
+Device,package,speed:     xc5vlx20t,ff323,-2 (PRODUCTION 1.73 2013-10-13, STEPPING level 0)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+ADDRESS<0>     |INSTRUCTION<0> |    5.602|
+ADDRESS<0>     |INSTRUCTION<1> |    5.696|
+ADDRESS<0>     |INSTRUCTION<2> |    5.628|
+ADDRESS<0>     |INSTRUCTION<3> |    5.685|
+ADDRESS<0>     |INSTRUCTION<4> |    5.651|
+ADDRESS<0>     |INSTRUCTION<5> |    5.780|
+ADDRESS<0>     |INSTRUCTION<6> |    5.649|
+ADDRESS<0>     |INSTRUCTION<7> |    5.769|
+ADDRESS<0>     |INSTRUCTION<8> |    5.496|
+ADDRESS<0>     |INSTRUCTION<9> |    4.873|
+ADDRESS<0>     |INSTRUCTION<10>|    5.529|
+ADDRESS<0>     |INSTRUCTION<11>|    5.410|
+ADDRESS<1>     |INSTRUCTION<0> |    5.146|
+ADDRESS<1>     |INSTRUCTION<1> |    5.241|
+ADDRESS<1>     |INSTRUCTION<2> |    5.155|
+ADDRESS<1>     |INSTRUCTION<3> |    5.230|
+ADDRESS<1>     |INSTRUCTION<4> |    5.358|
+ADDRESS<1>     |INSTRUCTION<5> |    5.308|
+ADDRESS<1>     |INSTRUCTION<6> |    5.356|
+ADDRESS<1>     |INSTRUCTION<7> |    5.297|
+ADDRESS<1>     |INSTRUCTION<8> |    5.195|
+ADDRESS<1>     |INSTRUCTION<9> |    4.939|
+ADDRESS<1>     |INSTRUCTION<10>|    5.157|
+ADDRESS<1>     |INSTRUCTION<11>|    5.050|
+ADDRESS<2>     |INSTRUCTION<0> |    5.415|
+ADDRESS<2>     |INSTRUCTION<1> |    5.511|
+ADDRESS<2>     |INSTRUCTION<2> |    5.441|
+ADDRESS<2>     |INSTRUCTION<3> |    5.500|
+ADDRESS<2>     |INSTRUCTION<4> |    5.295|
+ADDRESS<2>     |INSTRUCTION<5> |    5.595|
+ADDRESS<2>     |INSTRUCTION<6> |    5.293|
+ADDRESS<2>     |INSTRUCTION<7> |    5.584|
+ADDRESS<2>     |INSTRUCTION<8> |    5.128|
+ADDRESS<2>     |INSTRUCTION<9> |    5.152|
+ADDRESS<2>     |INSTRUCTION<10>|    5.336|
+ADDRESS<2>     |INSTRUCTION<11>|    5.217|
+ADDRESS<3>     |INSTRUCTION<0> |    5.347|
+ADDRESS<3>     |INSTRUCTION<1> |    5.431|
+ADDRESS<3>     |INSTRUCTION<2> |    5.358|
+ADDRESS<3>     |INSTRUCTION<3> |    5.420|
+ADDRESS<3>     |INSTRUCTION<4> |    5.263|
+ADDRESS<3>     |INSTRUCTION<5> |    5.500|
+ADDRESS<3>     |INSTRUCTION<6> |    5.261|
+ADDRESS<3>     |INSTRUCTION<7> |    5.489|
+ADDRESS<3>     |INSTRUCTION<8> |    5.107|
+ADDRESS<3>     |INSTRUCTION<9> |    4.856|
+ADDRESS<3>     |INSTRUCTION<10>|    5.153|
+ADDRESS<3>     |INSTRUCTION<11>|    5.035|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Oct 14 17:26:40 2026 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 479 MB
+
+
+

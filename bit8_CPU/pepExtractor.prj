@@ -1,0 +1,6 @@
+work	"ALU.vhd"
+work	"CPU_8bit.vhd"
+work	"Control_Unit.vhd"
+work	"PC.vhd"
+work	"Program_ROM.vhd"
+work	"Registers.vhd"

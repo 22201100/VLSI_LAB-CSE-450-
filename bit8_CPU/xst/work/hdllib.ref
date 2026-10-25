@@ -1,0 +1,13 @@
+AR program_rom behavioral /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Program_ROM.vhd sub00/vhpl03 1791998702
+AR control_unit behavioral /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Control_Unit.vhd sub00/vhpl07 1791993069
+EN cpu_8bit NULL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/CPU_8bit.vhd sub00/vhpl10 1791998446
+AR cpu_8bit behavioral /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/CPU_8bit.vhd sub00/vhpl12 1791998447
+AR registers behavioral /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Registers.vhd sub00/vhpl09 1791993073
+EN pc NULL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/PC.vhd sub00/vhpl00 1791993064
+AR cpu_8bit structural /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/CPU_8bit.vhd sub00/vhpl11 1791993075
+AR alu behavioral /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/ALU.vhd sub00/vhpl05 1791993071
+EN control_unit NULL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Control_Unit.vhd sub00/vhpl06 1791993068
+AR pc behavioral /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/PC.vhd sub00/vhpl01 1791993065
+EN registers NULL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Registers.vhd sub00/vhpl08 1791993072
+EN alu NULL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/ALU.vhd sub00/vhpl04 1791993070
+EN program_rom NULL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Program_ROM.vhd sub00/vhpl02 1791998701

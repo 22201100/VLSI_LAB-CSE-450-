@@ -1,0 +1,34 @@
+V3 18
+FL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/ALU.vhd 2026/10/08.16:19:46 P.20131013
+EN work/ALU 1791993070 FL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/ALU.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/ALU/Behavioral 1791993071 \
+      FL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/ALU.vhd EN work/ALU 1791993070
+FL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Control_Unit.vhd 2026/10/14.14:11:28 P.20131013
+EN work/Control_Unit 1791993068 \
+      FL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Control_Unit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Control_Unit/Behavioral 1791993069 \
+      FL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Control_Unit.vhd \
+      EN work/Control_Unit 1791993068
+FL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/CPU_8bit.vhd 2026/10/14.17:20:26 P.20131013
+EN work/CPU_8bit 1791998446 FL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/CPU_8bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/CPU_8bit/Behavioral 1791998447 \
+      FL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/CPU_8bit.vhd EN work/CPU_8bit 1791998446
+FL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/PC.vhd 2026/10/08.16:12:47 P.20131013
+EN work/PC 1791993064 FL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/PC.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/PC/Behavioral 1791993065 \
+      FL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/PC.vhd EN work/PC 1791993064
+FL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Program_ROM.vhd 2026/10/14.17:07:27 P.20131013
+EN work/Program_ROM 1791998701 \
+      FL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Program_ROM.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Program_ROM/Behavioral 1791998702 \
+      FL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Program_ROM.vhd EN work/Program_ROM 1791998701
+FL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Registers.vhd 2026/10/08.16:27:37 P.20131013
+EN work/Registers 1791993072 FL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Registers.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Registers/Behavioral 1791993073 \
+      FL /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/Registers.vhd EN work/Registers 1791993072

@@ -1,0 +1,10 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/tb_CPU_8bit_isim_beh.exe -prj /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/tb_CPU_8bit_beh.prj work.tb_CPU_8bit 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/CPU_8bit.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/tb_CPU_8bit.vhd" into library work
+ERROR:HDLCompiler:1314 - "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/tb_CPU_8bit.vhd" Line 22: Formal port/generic <clk> is not declared in <cpu_8bit>
+ERROR:HDLCompiler:854 - "/home/ise/VLSI_LAB_EXMPLES/bit8_CPU/tb_CPU_8bit.vhd" Line 9: Unit <behavioral> ignored due to previous errors.
+VHDL file /home/ise/VLSI_LAB_EXMPLES/bit8_CPU/tb_CPU_8bit.vhd ignored due to errors
